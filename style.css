@@ -1,0 +1,11 @@
+.alpha {
+    font-size: 20px;
+    width: 300px;
+    position: absolute;
+    z-index: 3;
+}
+
+.alpha span {
+    padding: 10px;
+    opacity: 0.2;
+}
