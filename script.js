@@ -57,6 +57,7 @@ button.onclick = function() {
                     div.style.opacity = 1
                 }
             }
+
         } else if (input.value === "b") {
             for (let br = 15; br < 18 * 40; br = br + 40) {
                 if (parseInt(div.id) === br) {
@@ -121,6 +122,13 @@ button.onclick = function() {
 
         }
     }
+    input.value = ""
+        // button.className = z
+        // if (parseInt(button.className) > 0) {
+        //     window.location.href = "http://127.0.0.1:5500/index.html"
+
+    // }
+    // z++
 
 
 
